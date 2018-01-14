@@ -1,0 +1,16 @@
+body {
+   background: grey;
+}
+
+.button {
+   font-size: 30px;
+   margin: 30px;
+   cursor: pointer;
+   transition: 0.5s;
+   background: #64bfe8;
+   padding: 10px;
+}
+
+.button:hover {
+   transform: scale(1.2);
+}
