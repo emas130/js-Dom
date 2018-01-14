@@ -1,7 +1,5 @@
-var withButton = document.getElementsByClassName("button");
-var textContent = "";
+var buttons = document.getElementsByClassName("button");
 
-for (var i = 0; i < withButton.length; i++) {
-   textContent = withButton[i];
-   alert(textContent.innerHTML);
+for (var i = 0; i < buttons.length; i++) {
+   alert(buttons[i].innerHTML);
 };
